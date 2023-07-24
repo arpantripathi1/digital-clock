@@ -1,0 +1,11 @@
+body {
+    margin:0;
+    background-image: url('dark_timer_image.jpg'); /* these things will make  background image responsive */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.5;
+    
+}
+

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- javascript file -->
+  <script src="file1.js" defer></script>
+</head>
+
+<body>
+
+<!-- first try to make vertical h then m then s boxes in mobileport view -->
+<!-- 
+   <div class="container-fluid  text-white bg-info">
+        <div class="row .text-info bg-primary">
+          <div class="col-sm-5 col-4">
+
+          </div>
+          <div class="col-sm-7 col-8 bg-danger">
+              <h1 text-left>DIGITAL-CLOCK</h1>
+          </div>
+        </div>
+        
+        <div class="row text-center justify-content-sm-evenly ms-5 me-4">
+          <div class="col col-sm-2 bg-primary ms-5 me-3">
+            <h3 class="hour-time">00</h3>
+            <span class="hours">
+              <p>hours</p>
+            </span>
+            
+          </div>
+          <div class="col  col-sm-2 bg-secondary ms-2 me-3">
+            <h3 class="minute-time">00</h3>
+            <span class="minutes"><p>minutes</p></span>
+            
+            
+          </div>
+          <div class="col col-sm-2 bg-success ms-2 me-3">
+            <h3 class="second-time">00</h3>
+            <span class="seconds"><p>seconds</p></span>
+          </div>
+        </div>
+  </div> -->
+
+
+
+<!-- third try (using flex for better margin)-->
+<div class="container-fluid  text-white ">
+  <div class="row  ">
+    <div class="col-sm-5 col-4">
+
+    </div>
+    <div class="col-sm-7 col-8 ">
+      <h1 text-left>DIGITAL-CLOCK</h1>
+    </div>
+  </div>
+
+  <!-- <div class="container "> -->
+      <div class="row text-center flex-sm-row flex-column justify-content-sm-evenly align-items-center ">
+        <div class="col col-2 bg-primary">
+          <h3 class="hour-time">00</h3>
+          <span class="hours">
+            <p>hours</p>
+          </span>
+      
+        </div>
+        <div class="col  col-2 bg-secondary ">
+          <h3 class="minute-time">00</h3>
+          <span class="minutes">
+            <p>minutes</p>
+          </span>
+      
+      
+        </div>
+        <div class="col col-2 bg-success">
+          <h3 class="second-time">00</h3>
+          <span class="seconds">
+            <p>seconds</p>
+          </span>
+        </div>
+      </div>
+  <!-- </div> -->
+</div>
+
+
+
+
+
+<!-- second try to make vertical h then m then s boxes in mobileport view -->
+
+<!--   
+  <div class="container-fluid text-center justify-content-md-evenly justify-content-sm-end " style="width: 60%; margin-top: 20%;">
+    <div class="row text-white">
+        <div class="col bg-info">
+            <h1>stop watch</h1>
+        </div>
+    </div>
+    <div class="container-md justify-content-md-evenly">
+          <div class="row text-light ">
+            <div class="col col-md-2 bg-primary ms-4 me-4">
+              <h5>00</h5>
+              <p>hours</p>
+            </div>
+            <div class="col col-md-2 bg-secondary me-4">
+              <h5>00</h5>
+              <p>hours</p>
+            </div>
+            <div class="col col-md-2 bg-success me-4">
+              <h5>00</h5>
+              <p>hours</p>
+            </div>
+          </div>
+    </div>
+    
+  </div> -->
+
+ 
+</body>
+
+</html>
